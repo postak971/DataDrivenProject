@@ -1,0 +1,10 @@
+INFO    2020-06-24 22:50:12,886 [main] com.w2a.utilities.TestLogs  - Config file loaded!!!
+INFO    2020-06-24 22:50:12,888 [main] com.w2a.utilities.TestLogs  - OR file loaded!!!
+INFO    2020-06-24 22:50:17,236 [main] com.w2a.utilities.TestLogs  - Chrome launched!!!
+INFO    2020-06-24 22:50:19,701 [main] com.w2a.utilities.TestLogs  - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2020-06-24 22:50:21,899 [main] com.w2a.utilities.TestLogs  - Inside LoginTest
+INFO    2020-06-24 22:50:25,014 [main] com.w2a.utilities.TestLogs  - LoginTest successfully executed
+INFO    2020-06-24 22:50:26,163 [main] com.w2a.utilities.TestLogs  - Customer Mridul Shrestha successfully added
+INFO    2020-06-24 22:50:26,635 [main] com.w2a.utilities.TestLogs  - Customer Bedana Karmacharya successfully added
+INFO    2020-06-24 22:50:27,064 [main] com.w2a.utilities.TestLogs  - Customer Shyamji Newyorkwale successfully added
+INFO    2020-06-24 22:50:27,829 [main] com.w2a.utilities.TestLogs  - Test execution completed!!!
