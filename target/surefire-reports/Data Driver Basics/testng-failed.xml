@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Data Driver Basics]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.w2a.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <methods>
+          <include name="AddCustomer" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+</suite> <!-- Failed suite [Data Driver Basics] -->

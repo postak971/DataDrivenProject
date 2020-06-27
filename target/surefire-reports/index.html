@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Data_Driver_Basics">
-              <span class="suite-name border-passed">Data Driver Basics</span>
+              <span class="suite-name border-failed">Data Driver Basics</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Data_Driver_Basics">
-                    <span>C:\Users\posta\eclipse-workspace\DataDrivenFramework\src\test\resources\runner\testng.xml</span>
+                    <span>C:\Users\posta\eclipse-workspace\DataDrivenFrameworkPostak\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driver_Basics" class="hide-methods failed suite-Data_Driver_Basics"> (hide)</a> <!-- hide-methods failed suite-Data_Driver_Basics -->
+                      <a href="#" panel-name="suite-Data_Driver_Basics" class="show-methods failed suite-Data_Driver_Basics"> (show)</a> <!-- show-methods failed suite-Data_Driver_Basics -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driver_Basics">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)">AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)">AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)">AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driver_Basics -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,21 +124,6 @@
                       <a href="#" panel-name="suite-Data_Driver_Basics" class="show-methods passed suite-Data_Driver_Basics"> (show)</a> <!-- show-methods passed suite-Data_Driver_Basics -->
                     </span>
                     <div class="method-list-content passed suite-Data_Driver_Basics">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)">AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)">AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.AddCustomerTest" hash-for-method="AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)">AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Data_Driver_Basics" title="com.w2a.testcases.BangkManagerLoginTest" hash-for-method="loginAsBankManager">loginAsBankManager</a> <!-- method navigator-link -->
@@ -132,26 +141,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Data_Driver_Basics" class="panel Data_Driver_Basics">
-          <div class="suite-Data_Driver_Basics-class-passed">
+          <div class="suite-Data_Driver_Basics-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.w2a.testcases.AddCustomerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)">
-                  </a> <!-- AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully) -->
-                  <span class="method-name">AddCustomer</span>
-                  <span class="parameters">(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)">
                   </a> <!-- AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully) -->
                   <span class="method-name">AddCustomer</span>
                   <span class="parameters">(Mridul, Shrestha, 55024.0, Customer added successfully)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)">
+                  </a> <!-- AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully) -->
+                  <span class="method-name">AddCustomer</span>
+                  <span class="parameters">(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -160,10 +177,14 @@
                   </a> <!-- AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully) -->
                   <span class="method-name">AddCustomer</span>
                   <span class="parameters">(Bedana, Karmacharya, 55423.0, Customer added successfully)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Data_Driver_Basics-class-passed -->
+          </div> <!-- suite-Data_Driver_Basics-class-failed -->
           <div class="suite-Data_Driver_Basics-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,7 +203,7 @@
         </div> <!-- panel Data_Driver_Basics -->
         <div panel-name="test-xml-Data_Driver_Basics" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\posta\eclipse-workspace\DataDrivenFramework\src\test\resources\runner\testng.xml</span>
+            <span class="header-content">C:\Users\posta\eclipse-workspace\DataDrivenFrameworkPostak\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -247,24 +268,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginAsBankManager')
 data.setCell(0, 2, 'com.w2a.testcases.BangkManagerLoginTest')
-data.setCell(0, 3, 3112);
+data.setCell(0, 3, 3275);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'AddCustomer')
 data.setCell(1, 2, 'com.w2a.testcases.AddCustomerTest')
-data.setCell(1, 3, 811);
+data.setCell(1, 3, 1162);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'AddCustomer')
 data.setCell(2, 2, 'com.w2a.testcases.AddCustomerTest')
-data.setCell(2, 3, 289);
+data.setCell(2, 3, 427);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'AddCustomer')
 data.setCell(3, 2, 'com.w2a.testcases.AddCustomerTest')
-data.setCell(3, 3, 265);
+data.setCell(3, 3, 390);
 window.suiteTableData['Data_Driver_Basics']= { tableData: data, tableDiv: 'times-div-Data_Driver_Basics'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Data_Driver_Basics">
               </div> <!-- times-div-Data_Driver_Basics -->
             </div> <!-- times-div -->
@@ -279,6 +300,33 @@ return data;
               <span class="reporter-method-name">loginAsBankManager</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">LoginTest successfully executed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Capturing screenshot</span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_35_CDT_2020.png>Screenshot</a></span>
+                <span class="reporter-method-output"><br /></span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_35_CDT_2020.png><img src =Sat_Jun_27_10_21_35_CDT_2020.png height ="100" width = "150"></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Capturing screenshot</span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_38_CDT_2020.png>Screenshot</a></span>
+                <span class="reporter-method-output"><br /></span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_38_CDT_2020.png><img src =Sat_Jun_27_10_21_38_CDT_2020.png height ="100" width = "150"></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Capturing screenshot</span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_36_CDT_2020.png>Screenshot</a></span>
+                <span class="reporter-method-output"><br /></span>
+                <span class="reporter-method-output"><a target =" _blank" href = Sat_Jun_27_10_21_36_CDT_2020.png><img src =Sat_Jun_27_10_21_36_CDT_2020.png height ="100" width = "150"></img></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,26 +354,32 @@ return data;
               <div class="chronological-class-name">com.w2a.testcases.BangkManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAsBankManager</span>
-                <span class="method-start">8514 ms</span>
+                <span class="method-start">9263 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddCustomer(Mridul, Shrestha, 55024.0, Customer added successfully)</span>
-                <span class="method-start">12008 ms</span>
+                <span class="method-start">13124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddCustomer(Bedana, Karmacharya, 55423.0, Customer added successfully)</span>
-                <span class="method-start">12820 ms</span>
+                <span class="method-start">15325 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddCustomer(Shyamji, Newyorkwale, 55025.0, Customer added successfully)</span>
-                <span class="method-start">13109 ms</span>
+                <span class="method-start">16618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13396 ms</span>
+                <span class="method-start">17959 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

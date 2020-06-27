@@ -22,8 +22,11 @@ public class TestUtil extends TestBase{
 		Date d = new Date();
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".png";//get's dynamic screenshot name.
 
-		FileUtils.copyFile(scrFile,
-				new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenshotName));		
+		FileUtils.copyFile(scrFile,new File(System.getProperty("user.dir") + "\\reports\\" + screenshotName));
+		
+		//ReportNG: use the below new File destination to copy the screenshot in the surefire-reports/html folder. 
+				//new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenshotName));	
+		
 		
 
 	}

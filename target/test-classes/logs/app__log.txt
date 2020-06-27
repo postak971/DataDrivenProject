@@ -1,10 +1,10 @@
-INFO    2020-06-26 18:48:49,718 [main] com.w2a.utilities.TestLogs  - Config file loaded!!!
-INFO    2020-06-26 18:48:49,718 [main] com.w2a.utilities.TestLogs  - OR file loaded!!!
-INFO    2020-06-26 18:48:53,338 [main] com.w2a.utilities.TestLogs  - Chrome launched!!!
-INFO    2020-06-26 18:48:56,010 [main] com.w2a.utilities.TestLogs  - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2020-06-26 18:48:58,209 [main] com.w2a.utilities.TestLogs  - Inside LoginTest
-INFO    2020-06-26 18:49:01,306 [main] com.w2a.utilities.TestLogs  - LoginTest successfully executed
-INFO    2020-06-26 18:49:02,514 [main] com.w2a.utilities.TestLogs  - Customer Mridul Shrestha successfully added
-INFO    2020-06-26 18:49:02,803 [main] com.w2a.utilities.TestLogs  - Customer Bedana Karmacharya successfully added
-INFO    2020-06-26 18:49:03,069 [main] com.w2a.utilities.TestLogs  - Customer Shyamji Newyorkwale successfully added
-INFO    2020-06-26 18:49:03,862 [main] com.w2a.utilities.TestLogs  - Test execution completed!!!
+INFO    2020-06-27 10:21:20,275 [main] com.w2a.utilities.TestLogs  - Config file loaded!!!
+INFO    2020-06-27 10:21:20,275 [main] com.w2a.utilities.TestLogs  - OR file loaded!!!
+INFO    2020-06-27 10:21:24,550 [main] com.w2a.utilities.TestLogs  - Chrome launched!!!
+INFO    2020-06-27 10:21:27,233 [main] com.w2a.utilities.TestLogs  - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2020-06-27 10:21:29,485 [main] com.w2a.utilities.TestLogs  - Inside LoginTest
+INFO    2020-06-27 10:21:32,729 [main] com.w2a.utilities.TestLogs  - LoginTest successfully executed
+INFO    2020-06-27 10:21:34,508 [main] com.w2a.utilities.TestLogs  - Customer Mridul Shrestha successfully added
+INFO    2020-06-27 10:21:35,936 [main] com.w2a.utilities.TestLogs  - Customer Bedana Karmacharya successfully added
+INFO    2020-06-27 10:21:37,266 [main] com.w2a.utilities.TestLogs  - Customer Shyamji Newyorkwale successfully added
+INFO    2020-06-27 10:21:38,899 [main] com.w2a.utilities.TestLogs  - Test execution completed!!!

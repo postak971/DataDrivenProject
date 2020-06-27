@@ -3,8 +3,6 @@ com\w2a\utilities\MonitoringMail.class
 com\w2a\utilities\MonitoringMail$SMTPAuthenticator.class
 com\w2a\utilities\MonitoringMail$1.class
 com\w2a\utilities\ExtentManager.class
-com\w2a\utilities\TestUtil.class
-com\w2a\listeners\CustomListeners.class
 com\w2a\testcases\BangkManagerLoginTest.class
 com\w2a\utilities\TestLogs.class
 com\w2a\testcases\AddCustomerTest.class

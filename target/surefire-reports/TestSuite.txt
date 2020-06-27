@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.702 s - in TestSuite
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 21.505 s <<< FAILURE! - in TestSuite
+AddCustomer(com.w2a.testcases.AddCustomerTest)  Time elapsed: 1.162 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+
+AddCustomer(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.39 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+
+AddCustomer(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.428 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.w2a.testcases.AddCustomerTest.AddCustomer(AddCustomerTest.java:31)
+
